@@ -1,0 +1,63 @@
+/*_____________________________________________________
+Centro Federal de Educação Tecnológica de Minas Gerais
+Programação WEB: Atividade Abelhas
+Alunas: Daniele Lima, Daniela Lourenço
+_______________________________________________________
+Estilos gerais da página */
+html,body{
+  min-height: 100%;
+}
+body{
+  margin: 0 auto;
+  margin: 20px 90px 50px 90px; /*top,right,bottom,left*/
+  background-image: linear-gradient(90deg, #ffffff 0%, #e8e2ca 21%,
+  #e8e2ca 44%, #d9cfa9 71%, #dace9e 84%, #cfac61 100%);
+  font-family: Arial,cursive;
+  font-size: 24px;
+  text-align: justify;
+}
+h1{
+  margin: 0 auto;
+  padding: 20px 0px 20px 0px; /*top,right,bottom,left*/
+  text-align: center;
+  color: black;
+  font: bold 34px Arial,serif;
+  border: 1px solid #f2a51e;
+  border-radius: 15px;
+  background-image:url(imgs/colmeia.gif);
+}
+p.return{
+  text-align: right;
+}
+p.curiosidade{
+  background-image: url(imgs/favo-de-mel.png);
+  border: 1px solid #f2a51e;
+  border-radius: 15px;
+  padding: 20px 50px 20px 50px;
+}
+.icone-curiosidade{
+  float: left;
+  padding-right: 20px;
+}
+.casta-de-abelha{
+  border-radius: 50%;
+  shape-outside: circle(100%);
+  border: 1px solid #f2a51e;
+}
+#logomarca{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#zangoes{
+  float: right;
+  margin-left: 50px;
+}
+#operarias{
+  float: left;
+  margin-right: 50px;
+}
+#rainha{
+  float: left;
+  margin-right: 50px;
+}
